@@ -1,0 +1,7 @@
+export * from './Permission/mutations'
+export * from './User/mutations'
+export * from './Post/mutations'
+export * from './Category/mutations'
+export * from './File/mutations'
+export * from './PostImage/mutations'
+export * from './FeedSource/mutations'
