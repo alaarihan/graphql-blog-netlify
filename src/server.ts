@@ -27,7 +27,6 @@ async function start() {
   app.register(require('./files'))
 
   app.register(mercurius, {
-    prefix: '/.netlify/functions',
     schema: schemaWithMiddlewares,
     context: createContext,
     graphiql: true,
